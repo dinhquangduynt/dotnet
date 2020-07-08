@@ -1,0 +1,11 @@
+D:\Tren_Lop\KienTrucHuongDichVu\Demo\bin\Debug\netcoreapp3.1\Demo.exe
+D:\Tren_Lop\KienTrucHuongDichVu\Demo\bin\Debug\netcoreapp3.1\Demo.deps.json
+D:\Tren_Lop\KienTrucHuongDichVu\Demo\bin\Debug\netcoreapp3.1\Demo.runtimeconfig.json
+D:\Tren_Lop\KienTrucHuongDichVu\Demo\bin\Debug\netcoreapp3.1\Demo.runtimeconfig.dev.json
+D:\Tren_Lop\KienTrucHuongDichVu\Demo\bin\Debug\netcoreapp3.1\Demo.dll
+D:\Tren_Lop\KienTrucHuongDichVu\Demo\bin\Debug\netcoreapp3.1\Demo.pdb
+D:\Tren_Lop\KienTrucHuongDichVu\Demo\obj\Debug\netcoreapp3.1\Demo.csprojAssemblyReference.cache
+D:\Tren_Lop\KienTrucHuongDichVu\Demo\obj\Debug\netcoreapp3.1\Demo.AssemblyInfoInputs.cache
+D:\Tren_Lop\KienTrucHuongDichVu\Demo\obj\Debug\netcoreapp3.1\Demo.AssemblyInfo.cs
+D:\Tren_Lop\KienTrucHuongDichVu\Demo\obj\Debug\netcoreapp3.1\Demo.dll
+D:\Tren_Lop\KienTrucHuongDichVu\Demo\obj\Debug\netcoreapp3.1\Demo.pdb
