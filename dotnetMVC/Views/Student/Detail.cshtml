@@ -1,0 +1,9 @@
+@model dotnetMVC.Models.Student;
+@{
+    ViewData["Title"] = "Student's Detail Page";
+    var student = Model;
+}
+
+<h1>@student.Studentname</h1>
+<h1>@student.StudentId</h1>
+<h1>@student.BirthDate</h1>

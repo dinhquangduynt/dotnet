@@ -1,0 +1,29 @@
+@model dotnetMVC.Models.Student;
+@{
+    ViewData["Title"] = "Student's edit page";
+   // var studentsViewBag = ViewBag.Students;
+    //var studentsViewData = (List<Student>) ViewData["Students"];
+    var student = Model;
+    List<Class> classes = ViewBag.Classes;
+}
+
+<div class="text-center">
+   <form class="form" action="/student/EditStudent" method="GET">
+        <input type="text" class="form-control" name="StudentId" id="StudentId" value="@student.StudentId">
+        <input type="text" class="form-control" name="Studentname" id="Studentname" value="@student.Studentname">
+        <input type="text" class="form-control" name="BirthDate" id="BirthDate" value="@student.BirthDate">
+
+        <select class="form-control" name="ClassId" id="ClassId">
+            @if(classes !=null){
+                foreach(var classItem in classes){
+                    <option value="@classItem.ClassId" 
+                    selected= "@(student.ClassId == classItem.ClassId ? true : false)">@classItem.ClassName
+                    </option>
+                }
+            }
+        </select>
+
+        <button class="btn btn-primary" type="submit">Save</button>
+        <a class="btn btn-danger" href="/student">Cancel</a>
+   </form>
+</div>

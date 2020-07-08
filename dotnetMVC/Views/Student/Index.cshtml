@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Student's list";
+   // var studentsViewBag = ViewBag.Students;
+    //var studentsViewData = (List<Student>) ViewData["Students"];
+    var students = Model;
+}
+
+<div class="text-center">
+    <table class="table">
+        <tr>
+            <th>StudentId</th>
+            <th>StudentName</th>
+            <th>BirthDate</th>
+            <th>ClassId</th>
+        </tr>
+        @if(students != null){
+            foreach(var student in students){
+                <tr>
+                    <td>@student.StudentId</td>
+                    <td>
+                        <a class="btn btn-success" href="/student/detail/@student.StudentId">@student.Studentname</a>
+                    </td>
+                    <td>@student.BirthDate</td>
+                    <td>@student.Class.ClassName</td>
+                    <td>
+                       
+                       <a class="btn btn-primary" href="/student/edit/@student.StudentId">Edit</a>
+                       <a class="btn btn-danger" href="#">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+        
+    </table>
+</div>
